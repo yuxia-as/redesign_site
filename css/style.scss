@@ -1,0 +1,231 @@
+body{
+    background-color: #ccc;
+    background:url(../img/bg.png) no-repeat center center fixed;
+    background-size:cover;
+}
+.btn-order,.btn-learn{
+    background-color: #fe0000;
+    color:#fff; 
+    font-weight: bold;
+    &:hover{
+        background-color:green; 
+    }
+}
+.btn-order{
+    margin-top:10px;
+    width:15%;
+}
+.btn-learn{
+    margin-top:18px;
+    width:40%;
+}
+img{
+    display:block;
+    margin:0 auto;
+}
+.container{ margin:40px auto;}
+.navbar{
+    height:60px;
+    background-color: #66feff;
+    div{
+        vertical-align:center;
+    }
+    .navbar-brand img{
+        width:40%;
+        height: auto;
+    }
+    .brand-text{
+        font-size: 10px;
+        font-weight: bold;
+        margin-top:-8px;
+    }
+    .nav-area{
+        background-color: #fff;
+    }
+    .nav-item{
+        color:black;
+        &:hover{
+            background-color: red;
+            color:#fff;  
+    }
+    // a{
+    //     color:black;
+    //     &:hover{
+    //         color:red;
+
+    //     }        
+    // }
+    .navbar-text{
+        color:#cc3300;
+    }
+}
+.order-ad{
+    margin-top:150px;
+    height:100vh;
+    p{        
+        margin:0 auto;
+        display: block;
+        width:60%;
+        //height:auto;
+        line-height: 40px;
+        color:blue;
+        font-weight: bold;
+        font-size:30px;
+        padding:15px;
+        background-color:#fff;
+        opacity: 0.5;
+        filter:alpha(opacity=50);
+    }
+    
+}
+.content{width:80%;}
+.flavor{
+    background-color:#ffff87;
+    img{
+        &:last-of-type{
+            width:70%;
+        }
+    }
+    .content{
+        margin-left:15%;
+    }
+}
+.header{
+    width:100%;
+    color:red;
+    font-size:25px;
+    font-weight: bold;
+}
+.health{
+    background-color:#b3ff99;
+    
+    img{width:70%;}
+}
+.fda{
+    background-color:#ffff87;
+    .header{width:70%;margin:0 auto;}
+    img{display:block;width:60%; height: auto;margin:10px auto;}
+}
+.social{
+    background-color:#b3ff99;
+    .contact{
+        p{
+            &:first-child{
+                font-size:25px;
+            }
+            font-size:10px;
+            margin-top:-6px;
+        }
+    }
+    img{
+        width:70%;
+        margin-left: 0;
+    }
+    iframe{
+        margin-top:9px;
+        width:300px;
+        height: 330px;
+        border:none;
+        overflow: hidden;
+    }    
+}
+.footer img{
+    width:100%;
+    height:40px;
+}
+
+.con2{
+    margin-top:20px;
+}
+.detail{
+    margin-top:60px;
+    background-color:#ffff87;
+    .section{
+        margin-bottom: 15px;
+        width:90%;
+        .sec-header{
+            color:black;            
+            font-size:20px;
+            
+            p{
+                font-size:12px;
+            }
+        }
+        .content{
+            margin:15px 0 10px;
+            font-size: 12px;
+            width:100%;
+        }
+        img{
+            margin:0;
+            padding:0;
+            display:block;
+            width:100%;
+        }
+    } 
+}
+.mycontact{
+    position:fixed;
+    .intro{
+        width:80%;
+        padding:10px;
+        color:#fff;
+        font-size:14px;
+        font-weight: bold;
+        background-color: red;
+        margin-bottom:8px;
+    }
+    .contact-us{
+        font-size:11px;
+        padding-left:10px;
+        p{
+           margin-top:-8px;
+           &:first-of-type{
+               margin-top:15px;
+               font-size:18px;
+               font-weight: bold;
+           }
+        }
+        a{width:40%;}
+    }
+}
+
+.order{
+    margin-top:60px;
+    background-color:#ffff87;
+    .order-info{
+        font-size: 12px;
+        input{
+            background-color: #eee;
+        }
+    }
+    .price-detail{
+        margin-bottom: 20px;
+        padding:15px 0;
+        background-color: #b3ff99;
+        width:100%;
+        text-align:center;
+        color:red;
+        font-size:13px;
+        font-weight: bold;
+        span{
+            margin-left:50px;
+        }
+    }
+    .submit-order{
+        background-color: #fe0000;
+        color:#fff; 
+        font-weight: bold;
+        width:40%;
+        margin-top:20px;
+    }
+    p{
+        width:100%;
+        margin:0 auto;
+        font-weight: bold;
+        &:first-child{
+            margin-top:50px;
+            font-size:25px;
+        }
+    }
+}

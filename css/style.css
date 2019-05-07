@@ -1,0 +1,289 @@
+body {
+  background-color: #ccc;
+  background: url(../img/bg.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.btn-order, .btn-learn {
+  background-color: #fe0000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-order:hover, .btn-learn:hover {
+  background-color: green;
+}
+
+
+
+.btn-order {
+  margin-top: 10px;
+  width: 15%;
+}
+
+.btn-learn {
+  margin-top: 18px;
+  width: 40%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 40px auto;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #66feff;
+}
+
+.navbar div {
+  vertical-align: center;
+}
+
+.navbar .navbar-brand img {
+  width: 40%;
+  height: auto;
+}
+
+.navbar .brand-text {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: -8px;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+.navbar .navbar-text {
+  color: #cc3300;
+}
+
+.active{
+      background-color: red;
+    }
+  .active a{
+    color:#fff;
+  }
+
+.order-ad {
+  margin-top: 150px;
+  height: 100vh;
+}
+
+.order-ad p {
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+  line-height: 40px;
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 15px;
+  background-color: #fff;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.content {
+  width: 80%;
+}
+
+.flavor {
+  background-color: #ffff87;
+}
+
+.flavor img:last-of-type {
+  width: 70%;
+}
+
+.flavor .content {
+  margin-left: 15%;
+}
+
+.header {
+  width: 100%;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.health {
+  background-color: #b3ff99;
+}
+
+.health img {
+  width: 70%;
+}
+
+.fda {
+  background-color: #ffff87;
+}
+
+.fda .header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.fda img {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto;
+}
+
+.social {
+  background-color: #b3ff99;
+}
+
+.social .contact p {
+  font-size: 10px;
+  margin-top: -6px;
+}
+
+.social .contact p:first-child {
+  font-size: 25px;
+}
+
+.social img {
+  width: 70%;
+  margin-left: 0;
+}
+
+.social iframe {
+  margin-top: 9px;
+  width: 300px;
+  height: 330px;
+  border: none;
+  overflow: hidden;
+}
+
+.footer img {
+  width: 100%;
+  height: 40px;
+}
+
+.con2 {
+  margin-top: 20px;
+}
+
+.detail {
+  margin-top: 60px;
+  background-color: #ffff87;
+}
+
+.detail .section {
+  margin-bottom: 15px;
+  width: 90%;
+}
+
+.detail .section .sec-header {
+  color: black;
+  font-size: 20px;
+}
+
+.detail .section .sec-header p {
+  font-size: 12px;
+}
+
+.detail .section .content {
+  margin: 15px 0 10px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.detail .section img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+.mycontact {
+  position: fixed;
+}
+
+.mycontact .intro {
+  width: 80%;
+  padding: 10px;
+  /*color: #fff;*/
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #ffff66;
+  margin-bottom: 8px;
+}
+
+.mycontact .contact-us {
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.mycontact .contact-us p {
+  margin-top: -8px;
+}
+
+.mycontact .contact-us p:first-of-type {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mycontact .contact-us a {
+  width: 40%;
+}
+
+.order {
+  margin-top: 60px;
+  background-color: #ffff87;
+}
+
+.order .order-info {
+  font-size: 12px;
+}
+
+.order .order-info input {
+  background-color: #eee;
+}
+
+.order .price-detail {
+  margin-bottom: 20px;
+  padding: 15px 0;
+  background-color: #b3ff99;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.order .price-detail span {
+  margin-left: 50px;
+}
+
+.order .submit-order {
+  background-color: #fe0000;
+  color: #fff;
+  font-weight: bold;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.order p {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.order p:first-child {
+  margin-top: 50px;
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
